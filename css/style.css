@@ -1,0 +1,30 @@
+body {
+    background: #1d1e28;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.linkler {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.linkler button {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+    height: 100px;
+    border: 5px solid orange;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+}
+
+.linkler button:hover {
+    background: orange;
+    border: 5px solid white;
+}
