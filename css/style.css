@@ -50,7 +50,7 @@ img {
 }
 
 .butonlar {
-    margin-top: -15rem;
+    margin-top: -12rem;
 }
 
 .hr {
@@ -84,4 +84,78 @@ button {
 button:hover {
     background: #fff;
     color: black;
+}
+
+@media screen and (max-width: 400px) {
+    .p1 {
+        display: none;
+    }
+    .p2 {
+        display: none;
+    }
+    #butnav {
+        display: none;
+    }
+    .hr {
+        display: none;
+    }
+    #butnav {
+        display: none;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    .p3 {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .p1 {
+        display: none;
+    }
+    .p2 {
+        display: none;
+    }
+    #butnav {
+        display: none;
+    }
+    .hr {
+        display: none;
+    }
+    #butnav {
+        display: none;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    .p3 {
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .p1 {
+        display: inline-block;
+    }
+    .p2 {
+        display: inline-block;
+    }
+    #butnav {
+        display: inline-block;
+    }
+    .hr {
+        display: inline-block;
+    }
+    #butnav {
+        display: inline-block;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    .p3 {
+        display: inline-block;
+    }
 }
